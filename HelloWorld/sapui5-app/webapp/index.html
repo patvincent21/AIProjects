@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>SAPUI5 HelloWorld - Employee List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script id="sap-ui-bootstrap" src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+          data-sap-ui-libs="sap.m"
+          data-sap-ui-bindingSyntax="complex"
+          data-sap-ui-theme="sap_belize"
+          data-sap-ui-resourceroots='{"HelloWorldSAPUI5": "./"}'>
+  </script>
+  <script>
+    sap.ui.getCore().attachInit(function () {
+      new sap.ui.xmlview({ viewName: "HelloWorldSAPUI5.view.Main" }).placeAt("content");
+    });
+  </script>
+</head>
+<body class="sapUiBody" id="content"></body>
+</html>
