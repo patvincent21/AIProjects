@@ -1,0 +1,13 @@
+<mvc:View controllerName="HelloWorldSAPUI5.controller.Main"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m">
+  <App>
+    <pages>
+      <Page title="Employee List">
+        <List items="{/employees}">
+          <StandardListItem title="{name}" description="{pernr}" />
+        </List>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

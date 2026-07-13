@@ -1,0 +1,9 @@
+{
+  "employees": [
+    { "name": "Alice Johnson", "pernr": "1001" },
+    { "name": "Bob Smith",     "pernr": "1002" },
+    { "name": "Carlos Diaz",   "pernr": "1003" },
+    { "name": "Diana Lee",     "pernr": "1004" },
+    { "name": "Ethan Brown",   "pernr": "1005" }
+  ]
+}

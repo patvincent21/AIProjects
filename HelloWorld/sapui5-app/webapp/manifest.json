@@ -1,0 +1,23 @@
+{
+  "sap.app": {
+    "id": "HelloWorldSAPUI5",
+    "type": "application",
+    "applicationVersion": { "version": "1.0.0" }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": { "desktop": true, "tablet": true, "phone": true }
+  },
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "HelloWorldSAPUI5.view.Main",
+      "type": "XML",
+      "id": "app"
+    },
+    "dependencies": {
+      "libs": {
+        "sap.m": {}
+      }
+    }
+  }
+}
